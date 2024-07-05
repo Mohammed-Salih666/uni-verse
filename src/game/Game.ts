@@ -23,7 +23,13 @@ class Game {
       gameObject.establishMovement();
     }
   }
+
+  //get the KaboomCtx object out of the game
+  public getKObject() {
+    return this.game; 
+  }
 }
+
 
 export default class GameInstance {
   private static game: Game;
